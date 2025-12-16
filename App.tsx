@@ -101,7 +101,7 @@ const Hero = () => (
           />
           <div className="absolute inset-0 bg-rose-200/5"></div>
           <div className="absolute bottom-10 -left-10 w-40 h-40 border border-white/30 backdrop-blur-sm p-4 hidden lg:block rounded-full flex items-center justify-center text-center">
-            <p className="text-[10px] uppercase tracking-widest text-white leading-relaxed px-2">
+            <p className="text-[10px] uppercase tracking-widest text-white font-medium leading-relaxed px-2">
               Técnica e sensibilidade editorial.
             </p>
           </div>
@@ -116,12 +116,12 @@ const Hero = () => (
 
 const Portfolio = () => {
   const items = [
-    { id: 1, title: "Nude Minimalista", category: "Manicure de Luxo", image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=800&auto=format&fit=crop" },
-    { id: 2, title: "Pérolas Delicadas", category: "Nail Art", image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop" },
+    { id: 1, title: "Nude Elegante", category: "Manicure de Luxo", image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=800&auto=format&fit=crop" },
+    { id: 2, title: "Minimal Gloss", category: "Nail Art", image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=800&auto=format&fit=crop" },
     { id: 3, title: "Rosa Editorial", category: "Design Personalizado", image: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=800&auto=format&fit=crop" },
-    { id: 4, title: "Soft French", category: "Manicure de Luxo", image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop" },
-    { id: 5, title: "Textura & Ouro", category: "Nail Art", image: "https://images.unsplash.com/photo-1600007183804-1ec0e729a677?q=80&w=800&auto=format&fit=crop" },
-    { id: 6, title: "Minimal Gloss", category: "Cuidado Completo", image: "https://images.unsplash.com/photo-1504198458649-012803d324f4?q=80&w=800&auto=format&fit=crop" },
+    { id: 4, title: "Soft French", category: "Manicure de Luxo", image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=800&auto=format&fit=crop" },
+    { id: 5, title: "Matte Elegance", category: "Nail Art", image: "https://images.unsplash.com/photo-1604902396830-aca29e19b067?q=80&w=800&auto=format&fit=crop" },
+    { id: 6, title: "White Pearl", category: "Cuidado Completo", image: "https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=800&auto=format&fit=crop" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -220,7 +220,7 @@ const Experience = () => (
         <div className="relative">
           <div className="aspect-square bg-rose-50 overflow-hidden rounded-[100px] shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1000&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1000&auto=format&fit=crop" 
               alt="Close of hands" 
               className="w-full h-full object-cover opacity-100 contrast-100" 
             />
@@ -548,4 +548,3 @@ export default function App() {
     </div>
   );
 }
-
